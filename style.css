@@ -1,23 +1,50 @@
-.card {
-    border: solid 1px;
+body {
+    font-size: 20px;
+    background: #eed;
+}
+
+select, button {
+    font-size: 20px;
+    background: #ede;
     border-radius: 5px;
+}
+
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+
+.card {
+    border: solid 10px;
     float: left;
     width: auto;
     margin: 1em;
     padding: .5em;
+    border-style: outset;
+    background: #fff;
 }
 
 .card td {
     padding: 3px;
+    text-align: right;
+    width: 2.5ex;
 }
 
 #ncards {
-    width: 5em;
+    width: 3em;
+    text-align: right;
+    padding-right: 1ex;
+}
+
+#ncards :focus {
+    border-style: none;
 }
 
 .hide {
     background: gray;
+    border-style: inset;
 }
+
 
 .visible {
     display: block;
@@ -34,4 +61,14 @@
 
 #calc:hover {
     opacity: 1;
+    background: #dee;
+    border-style: ridge;
+    border: solid 3px;
+}
+
+#message {
+    background: #ede;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
 }
