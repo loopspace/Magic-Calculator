@@ -1,0 +1,37 @@
+.card {
+    border: solid 1px;
+    border-radius: 5px;
+    float: left;
+    width: auto;
+    margin: 1em;
+    padding: .5em;
+}
+
+.card td {
+    padding: 3px;
+}
+
+#ncards {
+    width: 5em;
+}
+
+.hide {
+    background: gray;
+}
+
+.visible {
+    display: block;
+}
+
+#calc {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    opacity: 0;
+}
+
+#calc:hover {
+    opacity: 1;
+}
